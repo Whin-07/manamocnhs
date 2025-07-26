@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANAMOC NATIONAL HIGH SCHOOL</title>
+  <style>
+    body { font-family: sans-serif; margin:0; padding:0; }
+    nav { background: #005; color:#fff; padding: 1em; }
+    nav a { color:#fff; margin-right: 1em; text-decoration: none; }
+    header, section, footer { padding: 1em; }
+    .faculty-list { display: flex; flex-wrap: wrap; gap:1em; }
+    .faculty-card { border:1px solid #ccc; padding:1em; width:200px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MANAMOC NATIONAL HIGH SCHOOL</h1>
+  <p>Welcome to our official website</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#lr-portal">LR Portal</a>
+  <a href="#about">All About Us</a>
+  <a href="#events">Events & Updates</a>
+  <a href="#jhs-faculty">JHS Faculty</a>
+  <a href="#shs-faculty">SHS Faculty</a>
+  <a href="#others">Other Resources</a>
+</nav>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>A brief welcome message from the Principal, school mission, vision, and snapshot of latest announcements.</p>
+</section>
+
+<section id="lr-portal">
+  <h2>Learning Resource (LR) Portal</h2>
+  <p>Secure login link for teachers and learners to access resources.</p>
+  <a href="#">Login to LR Portal</a>
+</section>
+
+<section id="about">
+  <h2>All About Us</h2>
+  <h3>Mission, Vision, Core Values</h3>
+  <p>Insert school’s mission, vision, and DepEd-inspired values (Maka‑Diyos, Makatao, Makakalikasan, Makabansa).</p>
+  <h3>History & Community</h3>
+  <p>Brief history of Manamoc NHS, locale, milestones, affiliations.</p>
+</section>
+
+<section id="events">
+  <h2>Events & Updates</h2>
+  <ul>
+    <li><strong>[Date]</strong> — Title of News/Event &mdash; <a href="#">Read More</a></li>
+  </ul>
+</section>
+
+<section id="jhs-faculty">
+  <h2>Junior High School Faculty</h2>
+  <div class="faculty-list">
+    <div class="faculty-card">
+      <h4>EARL WARREN D. APGAO</h4>
+      <p>JHS MATHEMATICS TEACHER</p>
+      <p>09108733225/earlwarren.apgao@deped.gov.ph</p>
+    </div>
+  </div>
+</section>
+
+<section id="shs-faculty">
+  <h2>Senior High School Faculty</h2>
+  <div class="faculty-list">
+  </div>
+</section>
+
+<section id="others">
+  <h2>Other Resources</h2>
+  <ul>
+    <li><a href="#">School Calendar</a></li>
+    <li><a href="#">SOPs and Downloadables</a></li>
+    <li><a href="#">Contact & Feedback</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Address: Manamoc Island, Palawan, Philippines</p>
+  <p>Contact: 09503369339 | 301708@deped.gov.ph</p>
+  <p><a href="#">Sitemap</a> | <a href="#">Accessibility</a></p>
+</footer>
+
+</body>
+</html>
